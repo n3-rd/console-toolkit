@@ -16,6 +16,10 @@ export default defineConfig({
         find: '@',
         replacement: resolve(__dirname, './src'),
       },
+      {
+        find: '@storacha/console-toolkit-react',
+        replacement: resolve(__dirname, '../react/src'),
+      },
     ],
     extensions: ['.ts', '.tsx', '.js', '.jsx'],
   },
